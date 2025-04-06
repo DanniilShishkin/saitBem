@@ -1,0 +1,29 @@
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu__item {
+    margin: 0 10px;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  /* Если в HTML ссылки помещены внутрь .menu__item */
+  .menu__item a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .menu__item:hover,
+  .menu__item--active,
+  .menu__item a:hover {
+    font-weight: bold;
+    color: #ff9900;
+  }
+  
